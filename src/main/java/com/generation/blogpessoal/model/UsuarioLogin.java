@@ -11,6 +11,10 @@ public class UsuarioLogin {
 
 	
 	
+	public UsuarioLogin() {
+		
+	}
+
 	public UsuarioLogin(Long id, String nome, String usuario, String senha, String foto, String token) {
 		super();
 		this.id = id;
